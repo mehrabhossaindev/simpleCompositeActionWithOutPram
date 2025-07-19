@@ -3,5 +3,6 @@ runs:
   using: "composite"
   steps:
     - name: Initial Composite Action
+      shell: bash
       run: echo "Initail Composite Action"
       
