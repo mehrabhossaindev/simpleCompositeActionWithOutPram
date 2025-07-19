@@ -1,0 +1,7 @@
+name: Make a Simple Composite action without parameter
+runs:
+  using: "composite"
+  steps:
+    - name: Initial Composite Action
+      run: echo "Initail Composite Action"
+      
